@@ -3,7 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Arisha Inayat — CS Student & Developer</title>
+<title>Arisha Inayat — CS Student & Full-Stack Developer | COMSATS Lahore</title>
+<meta name="description" content="Arisha Inayat — CS student at COMSATS University Lahore, full-stack developer and UI/UX designer. Building elegant web apps with React, Node.js, MongoDB, Java, Python and more. Open to internships in 2025.">
+<meta name="keywords" content="Arisha Inayat, CS student, full stack developer, COMSATS Lahore, React developer, Node.js, MongoDB, UI UX designer, web developer Pakistan, portfolio">
+<meta name="author" content="Arisha Inayat">
+<meta name="robots" content="index, follow">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://arisha328.github.io/portfolio/">
+<meta property="og:title" content="Arisha Inayat — CS Student & Full-Stack Developer">
+<meta property="og:description" content="CS student at COMSATS Lahore building elegant full-stack web applications with React, Node.js, MongoDB and modern technologies. GPA 3.67/4.0. Open to internships.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1200&h=630&fit=crop">
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Arisha Inayat — CS Student & Full-Stack Developer">
+<meta name="twitter:description" content="CS student at COMSATS Lahore building elegant full-stack web applications. GPA 3.67/4.0. Open to internships.">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?w=1200&h=630&fit=crop">
+<!-- Canonical -->
+<link rel="canonical" href="https://arisha328.github.io/portfolio/">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <style>
@@ -374,6 +391,33 @@
     transition: gap 0.2s;
   }
   .project-link:hover { gap: 0.8rem; }
+
+  /* Project category badge */
+  .project-category-badge {
+    display: inline-block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.62rem; font-weight: 600;
+    letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--violet-light);
+    background: rgba(124,58,237,0.1);
+    border: 1px solid rgba(124,58,237,0.2);
+    border-radius: 999px;
+    padding: 0.2rem 0.75rem;
+    margin-bottom: 0.9rem;
+  }
+
+  /* Project action row (GitHub + Coming Soon) */
+  .project-actions {
+    display: flex; align-items: center; gap: 1.2rem; flex-wrap: wrap;
+    margin-top: auto;
+  }
+  .project-link-disabled {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    font-size: 0.78rem; font-weight: 500; color: var(--muted);
+    letter-spacing: 0.04em; cursor: not-allowed;
+    opacity: 0.55;
+    font-family: 'DM Sans', sans-serif;
+  }
   .project-card.featured {
     grid-column: span 2;
     background: linear-gradient(135deg, #12082A, #1A0B38);
@@ -671,11 +715,11 @@
           <span class="stat-label">GPA / 4.0</span>
         </div>
         <div class="stat-item">
-          <span class="stat-num">5+</span>
+          <span class="stat-num">7+</span>
           <span class="stat-label">Projects</span>
         </div>
         <div class="stat-item">
-          <span class="stat-num">8+</span>
+          <span class="stat-num">12+</span>
           <span class="stat-label">Technologies</span>
         </div>
       </div>
@@ -826,6 +870,9 @@
       <div class="skill-category reveal">
         <div class="skill-cat-title"><i class="fa-solid fa-layer-group"></i> Frameworks & Libraries</div>
         <div class="skill-tags">
+          <span class="skill-tag">React.js</span>
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">Express.js</span>
           <span class="skill-tag">Bootstrap</span>
           <span class="skill-tag">NumPy</span>
           <span class="skill-tag">Pandas</span>
@@ -1050,6 +1097,120 @@
           <span class="tech-badge">File Handling</span>
         </div>
         <a class="project-link" href="https://github.com/Arisha328/OOP-Java-Project.git" target="_blank">View on GitHub <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+      <!-- ── NEW: Smart Study Planner ── -->
+      <div class="project-card reveal">
+        <div class="project-card-banner" style="background: linear-gradient(135deg, #0F2027, #203A43, #2C5364); position:relative; width:calc(100% + 4rem); height:160px; overflow:hidden; border-radius:14px 14px 0 0; margin:-2rem -2rem 1.2rem -2rem; display:flex; align-items:center; justify-content:center;">
+          <!-- Decorative pattern -->
+          <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(124,58,237,0.35),rgba(44,83,100,0.6));"></div>
+          <div style="position:absolute;top:-30px;right:-30px;width:120px;height:120px;border-radius:50%;background:rgba(124,58,237,0.3);filter:blur(20px);"></div>
+          <div style="position:absolute;bottom:-20px;left:20px;width:80px;height:80px;border-radius:50%;background:rgba(201,168,226,0.15);filter:blur(16px);"></div>
+          <!-- Mock dashboard UI -->
+          <div style="position:relative;z-index:2;width:85%;background:rgba(15,10,30,0.85);border-radius:12px;padding:12px 14px;border:1px solid rgba(201,168,226,0.18);backdrop-filter:blur(8px);">
+            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;">
+              <span style="font-family:'JetBrains Mono',monospace;font-size:0.6rem;color:var(--lavender);font-weight:600;letter-spacing:0.1em;">📚 STUDY PLANNER</span>
+              <span style="font-family:'JetBrains Mono',monospace;font-size:0.5rem;color:rgba(201,168,226,0.5);">Dashboard</span>
+            </div>
+            <div style="display:flex;gap:8px;margin-bottom:8px;">
+              <div style="flex:1;background:rgba(124,58,237,0.2);border:1px solid rgba(124,58,237,0.3);border-radius:6px;padding:6px;text-align:center;">
+                <div style="font-family:'Playfair Display',serif;font-size:0.9rem;color:#C9A8E2;font-weight:700;">5</div>
+                <div style="font-size:0.42rem;color:rgba(201,168,226,0.5);font-family:'DM Sans',sans-serif;">Subjects</div>
+              </div>
+              <div style="flex:1;background:rgba(16,185,129,0.15);border:1px solid rgba(16,185,129,0.25);border-radius:6px;padding:6px;text-align:center;">
+                <div style="font-family:'Playfair Display',serif;font-size:0.9rem;color:#6EE7B7;font-weight:700;">12</div>
+                <div style="font-size:0.42rem;color:rgba(110,231,183,0.5);font-family:'DM Sans',sans-serif;">Tasks Done</div>
+              </div>
+              <div style="flex:1;background:rgba(245,158,11,0.15);border:1px solid rgba(245,158,11,0.25);border-radius:6px;padding:6px;text-align:center;">
+                <div style="font-family:'Playfair Display',serif;font-size:0.9rem;color:#FCD34D;font-weight:700;">78%</div>
+                <div style="font-size:0.42rem;color:rgba(252,211,77,0.5);font-family:'DM Sans',sans-serif;">Progress</div>
+              </div>
+            </div>
+            <div style="background:rgba(255,255,255,0.04);border-radius:6px;overflow:hidden;height:6px;margin-bottom:6px;">
+              <div style="width:78%;height:100%;background:linear-gradient(90deg,#7C3AED,#C9A8E2);border-radius:6px;"></div>
+            </div>
+            <div style="display:flex;gap:5px;">
+              <div style="flex:1;background:rgba(255,255,255,0.04);border-radius:4px;padding:4px 6px;">
+                <span style="font-size:0.4rem;color:rgba(201,168,226,0.6);font-family:'DM Sans',sans-serif;">✓ Math — Chapter 5</span>
+              </div>
+              <div style="flex:1;background:rgba(124,58,237,0.12);border-radius:4px;padding:4px 6px;border:1px solid rgba(124,58,237,0.2);">
+                <span style="font-size:0.4rem;color:rgba(201,168,226,0.8);font-family:'DM Sans',sans-serif;">→ Physics Lab Report</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-category-badge">Full Stack Web Application</div>
+        <div class="project-icon"><i class="fa-solid fa-calendar-check"></i></div>
+        <div class="project-date">Jun 2026</div>
+        <div class="project-name">Smart Study Planner</div>
+        <div class="project-desc">A modern study planner that helps students organize their schedule efficiently. Users can create subjects, manage daily tasks, set priorities, track progress, and improve productivity through an intuitive dashboard.</div>
+        <div class="project-tech">
+          <span class="tech-badge">React.js</span>
+          <span class="tech-badge">Node.js</span>
+          <span class="tech-badge">Express.js</span>
+          <span class="tech-badge">MongoDB</span>
+          <span class="tech-badge">JWT Auth</span>
+          <span class="tech-badge">REST API</span>
+        </div>
+        <a class="project-link" href="https://github.com/Arisha328/smart-study-planner" target="_blank">View on GitHub <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+      <!-- ── NEW: ShopVerse Marketplace ── -->
+      <div class="project-card reveal">
+        <div style="background: linear-gradient(135deg, #0D0221, #1A0533, #2D0B4E); position:relative; width:calc(100% + 4rem); height:160px; overflow:hidden; border-radius:14px 14px 0 0; margin:-2rem -2rem 1.2rem -2rem; display:flex; align-items:center; justify-content:center;">
+          <!-- Decorative elements -->
+          <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(124,58,237,0.45),rgba(45,11,78,0.7));"></div>
+          <div style="position:absolute;top:-20px;left:-20px;width:100px;height:100px;border-radius:50%;background:rgba(201,168,226,0.2);filter:blur(20px);"></div>
+          <div style="position:absolute;bottom:-20px;right:30px;width:90px;height:90px;border-radius:50%;background:rgba(124,58,237,0.3);filter:blur(18px);"></div>
+          <!-- Mock marketplace UI -->
+          <div style="position:relative;z-index:2;width:85%;background:rgba(10,5,25,0.88);border-radius:12px;padding:10px 12px;border:1px solid rgba(201,168,226,0.18);backdrop-filter:blur(8px);">
+            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;">
+              <span style="font-family:'Playfair Display',serif;font-size:0.72rem;color:#C9A8E2;font-weight:700;letter-spacing:0.08em;">🛒 ShopVerse</span>
+              <div style="display:flex;gap:4px;align-items:center;">
+                <span style="font-size:0.38rem;color:rgba(201,168,226,0.5);font-family:'JetBrains Mono',monospace;background:rgba(124,58,237,0.15);padding:2px 5px;border-radius:3px;">Seller</span>
+                <span style="font-size:0.38rem;color:rgba(201,168,226,0.5);font-family:'JetBrains Mono',monospace;background:rgba(16,185,129,0.15);padding:2px 5px;border-radius:3px;">Buyer</span>
+              </div>
+            </div>
+            <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:5px;margin-bottom:8px;">
+              <div style="background:rgba(124,58,237,0.15);border:1px solid rgba(124,58,237,0.25);border-radius:6px;padding:5px;text-align:center;">
+                <div style="font-size:0.75rem;margin-bottom:1px;">👗</div>
+                <div style="font-family:'JetBrains Mono',monospace;font-size:0.42rem;color:#C9A8E2;font-weight:700;">Fashion</div>
+                <div style="font-size:0.38rem;color:rgba(201,168,226,0.4);">42 items</div>
+              </div>
+              <div style="background:rgba(201,168,226,0.08);border:1px solid rgba(201,168,226,0.15);border-radius:6px;padding:5px;text-align:center;">
+                <div style="font-size:0.75rem;margin-bottom:1px;">📱</div>
+                <div style="font-family:'JetBrains Mono',monospace;font-size:0.42rem;color:#C9A8E2;font-weight:700;">Tech</div>
+                <div style="font-size:0.38rem;color:rgba(201,168,226,0.4);">18 items</div>
+              </div>
+              <div style="background:rgba(16,185,129,0.1);border:1px solid rgba(16,185,129,0.2);border-radius:6px;padding:5px;text-align:center;">
+                <div style="font-size:0.75rem;margin-bottom:1px;">🏠</div>
+                <div style="font-family:'JetBrains Mono',monospace;font-size:0.42rem;color:#6EE7B7;font-weight:700;">Home</div>
+                <div style="font-size:0.38rem;color:rgba(110,231,183,0.4);">31 items</div>
+              </div>
+            </div>
+            <div style="display:flex;align-items:center;justify-content:space-between;background:rgba(255,255,255,0.04);border-radius:6px;padding:5px 8px;">
+              <div style="display:flex;align-items:center;gap:6px;">
+                <div style="width:5px;height:5px;border-radius:50%;background:#6EE7B7;"></div>
+                <span style="font-size:0.42rem;color:rgba(201,168,226,0.7);font-family:'DM Sans',sans-serif;">3 vendors active · Cart (2) · JWT secured</span>
+              </div>
+              <span style="background:rgba(124,58,237,0.3);color:#C9A8E2;font-size:0.38rem;padding:2px 6px;border-radius:3px;font-family:'JetBrains Mono',monospace;">MERN</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-category-badge">Full Stack E-Commerce Platform</div>
+        <div class="project-icon"><i class="fa-solid fa-store"></i></div>
+        <div class="project-date">Jun 2026</div>
+        <div class="project-name">ShopVerse – Multi-Vendor Marketplace</div>
+        <div class="project-desc">A complete multi-vendor marketplace where multiple sellers can register, manage products, and process orders — while customers shop securely. Includes authentication, dashboards, product management, shopping cart, and order system.</div>
+        <div class="project-tech">
+          <span class="tech-badge">React.js</span>
+          <span class="tech-badge">Node.js</span>
+          <span class="tech-badge">Express.js</span>
+          <span class="tech-badge">MongoDB</span>
+          <span class="tech-badge">JWT Auth</span>
+          <span class="tech-badge">REST API</span>
+        </div>
+        <a class="project-link" href="https://github.com/Arisha328/shopverse-marketplace" target="_blank">View on GitHub <i class="fa-solid fa-arrow-right"></i></a>
       </div>
 
     </div>
